@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Reset default styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,50 +7,57 @@
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    background-color: #1c569e;
+    color: #000;
     margin: 20px;
 }
 
-/* Header styles */
-header {
-    background-color: #4682b4;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-/* Container styles */
+/* Windows XP style container */
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #3a6ea5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
 }
 
-/* Section styles */
+/* Windows XP style header */
+header {
+    background-color: #3a6ea5;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Windows XP style section */
 section {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
+    border: 1px solid #d4d4d4;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Article styles */
+/* Windows XP style article */
 article {
     margin-bottom: 20px;
 }
 
-/* Footer styles */
+/* Windows XP style footer */
 footer {
-    background-color: #4682b4;
+    background-color: #3a6ea5;
     color: #fff;
     text-align: center;
     padding: 10px;
     clear: both;
+    border-radius: 0 0 5px 5px;
 }
 
 /* Responsive design */
